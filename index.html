@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DigitalDesign</title>
+        <link rel="icon" type="image/x-icon" href="Images/Logo.png">
+        <link rel="stylesheet" type="text/css" href="slick.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Css/style.min.css">
+	    <link rel="icon" type="image/x-icon" href="Images/icon.ico">
+    </head>
+    <body>
+        <div class="all">
+            <div class="modal" id="modal">
+                <div class="modal__overlay modal-close" href="#">
+                    <img class="modal-close" src="/Images/close.png">
+                </div>
+                <div class="modal__content">
+                    <div class="modal__head">Вход в аккаунт</div>
+                    <form action="select1.php" method="post">
+                        <input type="text" id="fname" name="fname" value="Логин"><br>
+                        <input type="password" id="password" name="password" value="Пароль"><br>
+                    </form>
+                    <button class="modal__button2" href="#">Войти</button>
+                </div>
+            </div>
+            <div class="menu" id="menu">
+                <div class="menu__overlay menu-close" href="#">
+                    <img class="menu-close" src="/Images/close.png">
+                </div>
+                <div class="menu__nav">
+                    <a href="#about">О себе</a>
+                    <a href="#doing">Чем занимаюсь</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#ordering">Оформление заказа</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <button class="menu__button">Личный кабинет</button>
+            </div>
+            <div class="header">
+                <div class="header__logo">
+                    <img src="/Images/Logo.png" alt="Logo">
+                </div>
+                <div class="header__nav">
+                    <a href="#about">О себе</a>
+                    <a href="#doing">Чем занимаюсь</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#ordering">Оформление заказа</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <button class="modal__button">Личный кабинет</button>
+                <div class="burger">
+                    <img src="/Images/burger.png">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="wrapper__main">
+                    <div class="wrapper__bigtxt">Услуги веб-дизайнера</div>
+                    <div class="wrapper__smalltxt">Быстро, качественно, недорого</div>
+                    <button class="wrapper__button2">Заказать услугу</button>
+                </div>
+            </div>
+            <div class="about" id="about">
+                <div class="about__head">О себе</div>
+                <div class="about__figures">
+                    <p class="inf">Моё имя Глеб. Я студент факультета компьютерного дизайна. Создаю логотипы, посты в соц сети, лендинги веб-сайтов. Владею навыками в монтаже видео и анимации. Работаю до полного согласования с клиентом. Работаю для портфолио, так что стоимость услуг невелика.</p>
+                </div>
+            </div>
+            <div class="doing" id="doing">
+                <div class="doing__head">Чем занимаюсь</div>
+                <div class="doing__main">
+                    <div class="doing__first">
+                        <img src="/Images/lg.png" class="doing__lg">
+                        <div class="doing__text1">Создание логотипов</div>
+                    </div>
+                    <div class="arrows"></div>
+                    <div class="doing__first">
+                        <img src="/Images/sc.png" class="doing__sc">
+                        <div class="doing__text2">Визуал для соц сетей</div>
+                    </div>
+                    <div class="arrows"></div>
+                    <div class="doing__first">
+                        <img src="/Images/vv.png" class="doing__vv">
+                        <div class="doing__text3">Разработка сайтов</div>
+                    </div>
+                    <div class="arrows"></div>
+                </div>
+            </div>
+            <div class="programs">
+                <div class="programs__head">В каких программах работаю</div>
+                <div class="programs__mainn">
+                    <img src="/Images/figma.png" class="programs__figma">
+                    <img src="/Images/js.png" class="programs__js">
+                    <img src="/Images/ps.png" class="programs__ps">
+                    <img src="/Images/lr.png" class="programs__lr">
+                    <img src="/Images/ai.png" class="programs__ai">
+                    <img src="/Images/blender.png" class="programs__blender">
+                    <img src="/Images/pr.png" class="programs__pr">
+                    <img src="/Images/ae.png" class="programs__ae">
+                    <img src="/Images/genially.png" class="programs__genially">
+                </div>
+            </div>
+            <div class="portfolio" id="portfolio">
+                <div class="portfolio__head">Портфолио</div>
+                <div class="tabs">
+                    <div class="tabs__nav tabs-nav">
+                        <button class="tabs-nav__item is-active" data-tab-name="tab-1">Визуал</button>
+                        <button class="tabs-nav__item" data-tab-name="tab-2">Логотипы</button>
+                        <button class="tabs-nav__item" data-tab-name="tab-3">Лендинги</button>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tab is-active tab-1">
+                            <img src="/Images/insst1.png" class="portfolio__inst1">
+                            <img src="/Images/inst2.png" class="portfolio__inst2">
+                            <img src="/Images/inst3.png" class="portfolio__inst3">
+                        </div>
+                        <div class="tab tab-2">
+                            <div class="top">
+                                <img src="/Images/log1.png" class="portfolio__log1">
+                                <img src="/Images/log4.png" class="portfolio__log4">
+                                <img src="/Images/log6.png" class="portfolio__log6">
+                            </div>
+                            <div class="down">
+                                <img src="/Images/log2.png" class="portfolio__log2">
+                                <img src="/Images/log3.png" class="portfolio__log3">
+                            </div>
+                        </div>
+                        <div class="tab tab-3">
+                            <img src="/Images/land1.png" class="portfolio__land1">
+                            <img src="/Images/land2.png" class="portfolio__land2">
+                            <img src="/Images/land3.png" class="portfolio__land3">
+                            <img src="/Images/land4.png" class="portfolio__land4">
+                            <img src="/Images/land5.png" class="portfolio__land5">
+                            <img src="/Images/land6.png" class="portfolio__land6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ordering" id="ordering">
+                <div class="ordering__head">Оформление заказа</div>
+                <div class="ordering__main">
+                    <form action="select1.php" method="post">
+                        <input type="text" id="fname" name="fname" value="Имя"><br>
+                        <input type="email" id="mail" name="mail" value="Почта"><br>
+                        <select>
+                            <option disabled>Выберете услугу</option>
+                            <option value="Разработка веб-сайтов">Разработка веб-сайтов</option>
+                            <option value="Визуал">Визуал</option>
+                            <option value="Логотип">Логотип</option>
+                            <option value="Обработка фотографии">Обработка фотографии</option>
+                            <option value="3D">3D проектирование</option>
+                            <option value="Монтаж видео">Монтаж видео</option>
+                            <option value="Моушн Дизайн">Моушн Дизайн</option>
+                          </select>
+                    </form>
+                    <button class="ordering__button2" href="#">Заказать</button>
+                </div>
+            </div>
+            <div class="contacts" id="contacts">
+                <div class="contacts__head">Связь со мной</div>
+                <div class="contacts__main">
+                    <div class="contacts__logo">
+                        <img src="/Images/Logo.png">
+                    </div>
+                    <div class="contacts__vk">
+                        <img src="/Images/vk.png" class="contacts__icon">
+                        <p class="contacts__write">VK</p>
+                    </div>
+                    <div class="contacts__inst">
+                        <img src="/Images/inst.png" class="contacts__icon">
+                        <p class="contacts__write">Instagram</p>
+                    </div>
+                    <div class="contacts__tg">
+                        <img src="/Images/tg.png" class="contacts__icon">
+                        <p class="contacts__write">Telegram</p>
+                    </div>
+                    <div class="contacts__wh">
+                        <img src="/Images/wh.png" class="contacts__icon">
+                        <p class="contacts__write">Whatsapp</p>
+                    </div>
+                    <div class="contacts__mail">
+                        <img src="/Images/mail.png" class="contacts__icon">
+                        <p class="contacts__write">Почта</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/burger.js"></script>
+    </body>
+</html>
